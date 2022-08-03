@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> ItemList </title>
+    <style>
+        body {
+            background-color: #afafaf;
+
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+        .list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="list">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Image</th>
+                <th>Vote Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Film 1</td>
+                <td><img src="1.png"></td>
+                <td>5/10</td>
+            </tr>
+            <tr>
+                <td>Film 2</td>
+                <td><img src="1.png"></td>
+                <td>6/10</td>
+            </tr>
+            <tr>
+                <td>Film 3</td>
+                <td><img src="1.png"></td>
+                <td>7/10</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+
+</html>
