@@ -32,9 +32,6 @@
             border: 2px solid black;
             box-sizing: border-box;
         }
-        button:hover {
-            opacity: 0.7;
-        }
         .login {
             padding: 25px;
             background-color: rgb(131, 131, 141);
